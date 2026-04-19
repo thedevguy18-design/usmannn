@@ -3,6 +3,11 @@ export const showcaseVideos = [
     id: 1,
     title: "",
     videoUrl: "https://drive.google.com/file/d/1ErtzC6w7zKbVPQUVAbcJZdCW-V35flMs/preview"
+  },
+  {
+    id: 2,
+    title: "",
+    videoUrl: "https://drive.google.com/file/d/1MF_Kn31dsmeVXLTbP0Zev_KkdWQqouHI/preview"
   }
 ];
 

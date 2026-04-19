@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { User } from 'lucide-react';
 import { TestimonialData } from './types';
 
 interface ClientSliderProps {
@@ -64,11 +65,9 @@ const ClientSlider: React.FC<ClientSliderProps> = ({ testimonials }) => {
               hover:shadow-[0_0_25px_rgba(77,192,53,0.2)]"
           >
             <div className="flex items-center gap-4 mb-4">
-              <img
-                src={testimonial.avatar}
-                alt={testimonial.name}
-                className="w-12 h-12 rounded-full object-cover"
-              />
+              <div className="w-12 h-12 rounded-full bg-[#4DC035]/20 flex items-center justify-center">
+                <User className="w-6 h-6 text-[#4DC035]" />
+              </div>
               <div>
                 <h4 className="text-white font-semibold">{testimonial.name}</h4>
                 <p className="text-gray-400 text-sm">{testimonial.company}</p>
