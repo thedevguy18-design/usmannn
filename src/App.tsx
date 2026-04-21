@@ -160,10 +160,10 @@ function App() {
       </section>
 
       {/* Clients Section */}
-      {/* <ClientsSection /> */}
+      <ClientsSection />
 
       {/* Explainer Video Ads Section */}
-      {/* <ExplainerVideoAds /> */}
+      <ExplainerVideoAds />
 
       {/* AI Ads Section */}
       <AIAdsSection />
@@ -174,9 +174,9 @@ function App() {
       </section>
       
       {/* Services Section */}
-      {/* <section id="services">
+      <section id="services">
         <PricingSection />
-      </section> */}
+      </section>
       
       {/* Testimonials Section */}
       <section id="testimonials">
