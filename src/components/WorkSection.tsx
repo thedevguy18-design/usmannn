@@ -28,8 +28,6 @@ const WorkSection = () => {
 
   return (
     <section className="our-work-section relative bg-black py-24 overflow-hidden">
-      {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-radial from-purple-900/10 via-black to-black" />
       
       <div className="container mx-auto px-6">
         <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-6">

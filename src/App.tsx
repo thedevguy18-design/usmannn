@@ -174,9 +174,9 @@ function App() {
       </section>
       
       {/* Services Section */}
-      <section id="services">
+      {/* <section id="services">
         <PricingSection />
-      </section>
+      </section> */}
       
       {/* Testimonials Section */}
       <section id="testimonials">
