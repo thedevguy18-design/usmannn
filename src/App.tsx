@@ -163,10 +163,10 @@ function App() {
       {/* <ClientsSection /> */}
 
       {/* Explainer Video Ads Section */}
-      <ExplainerVideoAds />
+      {/* <ExplainerVideoAds /> */}
 
       {/* AI Ads Section */}
-      {/* <AIAdsSection /> */}
+      <AIAdsSection />
 
       {/* Work Section */}
       <section id="work">
