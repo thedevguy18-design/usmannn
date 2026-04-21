@@ -166,7 +166,7 @@ function App() {
       <ExplainerVideoAds />
 
       {/* AI Ads Section */}
-      <AIAdsSection />
+      {/* <AIAdsSection /> */}
 
       {/* Work Section */}
       <section id="work">
