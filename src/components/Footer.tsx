@@ -22,8 +22,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-gray-400 max-w-md">
-              Transforming ideas into captivating visual stories. Your vision, our expertise, 
-              creating content that leaves a lasting impression.
+              Create Video Ads based on Data that brings real ROI and scales your business predictably
             </p>
           </div>
 
