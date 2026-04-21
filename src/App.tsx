@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Circle, Hexagon, Triangle, Plus, X, Rocket, Menu } from 'lucide-react';
 import PricingSection from './components/PricingSection';
-import ClientsSection from './components/ClientsSection';
+// import ClientsSection from './components/ClientsSection';
 import ScrollProgress from './components/ScrollProgress';
 import WorkSection from './components/WorkSection';
 import TestimonialsSection from './components/TestimonialsSection';
