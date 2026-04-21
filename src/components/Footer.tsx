@@ -41,7 +41,7 @@ const Footer = () => {
         {/* Bottom Border with Gradient */}
         <div className="mt-12 pt-8 border-t border-[#4DC035]/10">
           <p className="text-center text-gray-500 text-sm">
-            © {new Date().getFullYear()} Nexus Growth. All rights reserved.
+            © {new Date().getFullYear()} Prestige Media. All rights reserved.
           </p>
         </div>
       </div>
