@@ -131,17 +131,15 @@ function App() {
         <div className="relative z-10 w-full max-w-6xl mx-auto flex flex-col items-center gap-10">
           {/* Horizontal Video */}
           <div className="w-full max-w-3xl rounded-2xl overflow-hidden border border-white/10 shadow-[0_0_60px_rgba(77,192,53,0.08)] animate-fade-in">
-            <div className="w-full aspect-video bg-black">
-              <video
-                className="w-full h-full object-cover"
-                autoPlay
-                loop
-                muted
-                playsInline
-              >
-                <source src="https://player.vimeo.com/external/459389137.sd.mp4?s=2b3f1c2e57d2d3f20949b0e7a2411abe925c6789&profile_id=165" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+            <div className="w-full aspect-video">
+              <iframe
+                src="https://drive.google.com/file/d/14aHOV8nW8v28TOMwpKu_syWZHUapyC1J/preview"
+                width="100%"
+                height="100%"
+                allow="autoplay"
+                className="w-full h-full"
+                title="Featured Video"
+              />
             </div>
           </div>
 
